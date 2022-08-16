@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programacion Orientada a Objetos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-danger">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Navbar</span>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>forma 1</h4>
+          <div class="mb-3">
+            <label class="form-label">kilometraje</label>
+            <input
+              class="form-control"
+              placeholder="ingrese kilometraje"
+              type="text"
+              id="imp-km"
+            />
+          </div>
+          <button class="btn btn-outline-primary" id="btn_mostrar">
+            Aceptar
+          </button>
+        </div>
+
+        <div class="col-lg-4">
+          <h4>forma 2</h4>
+          <div class="mb-3">
+            <label class="form-label">marca</label>
+            <select class="form-select" id="slt-marca">
+              <option value="-1" disabled selected>seleccione una marca</option>
+              <option value="mazda">mazda</option>
+              <option value="nissan">nissan</option>
+              <option value="subaru">subaru</option>
+              <option value="toyota">toyota</option>
+              <option value="mitsubishi   ">mitsubishi</option>
+            </select>
+          </div>
+          <button id="btn_aceptar" class="btn btn-danger">Aceptar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
