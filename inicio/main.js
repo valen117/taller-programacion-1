@@ -2,7 +2,7 @@ import Vehiculo from "./vehiculo.js";
 
 function ejecutar() {
   let kilometraje = document.getElementById("imp-km").value;
-  //creando instancia
+  //creando instancia 
   let vehiculo = new Vehiculo(kilometraje);
   vehiculo.mostrar_km();
 }
